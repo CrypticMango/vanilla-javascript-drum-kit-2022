@@ -36,6 +36,10 @@ button:hover {
     cursor: pointer;
 }
 
+button:active {
+    background-color: #C689C6;
+}
+
 .drum-pads {
     border: solid 5px #FF9494;
     border-radius: 9px;
