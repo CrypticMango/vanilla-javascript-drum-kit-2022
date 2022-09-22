@@ -21,7 +21,7 @@ a {
 }
 
 button {
-    width: 90px;
+    width: 100px;
     height: 100px;
     border-radius: 9px;
     background-color: #FFD1D1;
@@ -43,5 +43,5 @@ button:active {
 .drum-pads {
     border: solid 5px #FF9494;
     border-radius: 9px;
-    padding: 10px;
+    padding: 2px;
 }
