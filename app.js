@@ -1,12 +1,3 @@
-//let button = document.getElementById("drum-pads");
-//button.addEventListener("click", buttonPress);
-
-//function buttonPress() {
-//    alert("teehee you pressed a button 😂");
-//}
-
-//console.log(button);
-
 //Cymbal button
 const cymbalButton = document.getElementById("cymbal");
 const cymbalSound = new Audio('drum-sounds/cymbal (4).wav');
@@ -15,6 +6,7 @@ cymbalButton.addEventListener("click", cymbalButtonPress);
 
 function cymbalButtonPress() {
     cymbalSound.play();
+    cymbalSound.currentTime = 0;
 }
 
 //Clap button
@@ -25,6 +17,7 @@ clapButton.addEventListener("click", clapButtonPress);
 
 function clapButtonPress() {
     clapSound.play();
+    clapSound.currentTime = 0;
 }
 
 //floor tom button
@@ -35,6 +28,7 @@ floorTomButton.addEventListener("click", floorTomButtonPress);
 
 function floorTomButtonPress() {
     floorTomSound.play();
+    floorTomSound.currentTime = 0;
 }
 
 //mid tom button
@@ -45,6 +39,7 @@ midTomButton.addEventListener("click", midTomButtonPress);
 
 function midTomButtonPress() {
     midTomSound.play();
+    midTomSound.currentTime = 0;
 }
 
 //high tom button
@@ -55,6 +50,7 @@ highTomButton.addEventListener("click", highTomButtonPress);
 
 function highTomButtonPress() {
     highTomSound.play();
+    highTomSound.currentTime = 0;
 }
 
 
@@ -66,6 +62,7 @@ kickButton.addEventListener("click", kickButtonPress);
 
 function kickButtonPress() {
     kickSound.play();
+    kickSound.currentTime = 0;
 }
 
 //snare button
@@ -76,6 +73,7 @@ snareButton.addEventListener("click", snareButtonPress);
 
 function snareButtonPress() {
     snareSound.play();
+    snareSound.currentTime = 0;
 }
 
 //high hat open
@@ -86,6 +84,7 @@ hiHatOButton.addEventListener("click", hiHatOButtonPress);
 
 function hiHatOButtonPress() {
     hiHatOSound.play();
+    hiHatOSound.currentTime = 0;
 }
 
 
@@ -97,4 +96,5 @@ hiHatCButton.addEventListener("click", hiHatCButtonPress);
 
 function hiHatCButtonPress() {
     hiHatCSound.play();
+    hiHatCSound.currentTime = 0;
 }
