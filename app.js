@@ -1,5 +1,3 @@
-
-
 //Cymbal button
 const cymbalButton = document.getElementById("cymbal");
 const cymbalSound = new Audio('drum-sounds/cymbal (4).wav');
